@@ -1,0 +1,91 @@
+body {
+    /*background-color: #B9C5DD;*/
+    /*background: linear-gradient(to bottom, #B9C5DD 30%, #D4B6DC 50%, #3E6991 80%);*/
+    background: linear-gradient(-45deg, #B9C5DD, #D4B6DC, #3E6991);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.page {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    font-family: "IstokWeb", sans-serif;
+    color: black;
+    box-sizing: border-box;
+    /*background: linear-gradient(to bottom, #B9C5DD 30%, #D4B6DC 50%, #3E6991 80%);*/
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+
+    /*background: linear-gradient(-45deg, #B9C5DD, #D4B6DC, #3E6991);*/
+    /*background-size: 400% 400%;*/
+    /*animation: gradient 15s ease infinite;*/
+    /*height: 100vh;*/
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.page__section {
+    margin: 0 auto;
+    width: calc(100% - 398px);
+    max-width: 1240px;
+  
+}
+
+.page__link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 130%;
+    color: black;
+    margin: 0 10px 0 0;
+    display: block;
+}
+
+.page__link:last-child {
+    margin-right: 0;
+}
+
+.page__link:hover {
+    font-weight: 500;
+}
+
+
+@media all and (max-width: 1140px) {
+    .page__section {
+        width: calc(100% - 298px);
+    }
+}
+
+@media all and (max-width: 1040px) {
+    .page__section {
+        width: calc(100% - 198px);
+    }
+}
+
+@media all and (max-width: 940px) {
+    .page__section {
+        width: calc(100% - 98px);
+    }
+}
+
+@media all and (max-width: 440px) {
+    .page__section {
+        width: calc(100% - 18px);
+    }
+}
+

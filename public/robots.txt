@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+User-agent: Yandex
+Disallow: /src/components/AdminEditor.js
+Disallow: /src/components/AdminEditorNews.js 
+Disallow: /src/components/AdminLogin.js 
+Disallow: /src/components/PopupWIthLink.js 
+Disallow: /src/components/PopupWIthoutInputs.js  
+Disallow: /src/components/Search.js 
+Disallow: /src/components/Details 
+Disallow: /src/components/utils

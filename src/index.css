@@ -1,0 +1,17 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts.css");
+@import url("./blocks/app.css");
+@import url("./blocks/poems.css");
+@import url("./blocks/card.css");
+@import url("./blocks/header.css");
+@import url("./blocks/texts.css");
+@import url("./blocks/buttons.css");
+@import url("./blocks/popup.css");
+@import url("./blocks/editor.css");
+@import url("./blocks/openedCard.css");
+@import url("./blocks/menu.css");
+@import url("./blocks/series.css");
+@import url("./blocks/cardOfSeries.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/autor.css");
+@import url("./blocks/stub");

@@ -1,0 +1,128 @@
+.button {
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin: 10px 10px 10px 35px;
+}
+
+.button__seria {
+  padding: 10px;
+}
+.button__seria:hover {
+  /* border: #692978 solid 1px;
+  border-radius: 50%; */
+  /* padding: 10px; */
+  color: #ffe0d2;
+}
+
+.button__delete {
+  background-image: url("../images/remove.svg");
+  width: 35px;
+  height: 35px;
+}
+
+.button__delete:hover {
+  border: red solid 3px;
+  border-radius: 50%;
+}
+
+.button__edit {
+  background-image: url("../images/edit.svg");
+  width: 35px;
+  height: 35px;
+  margin: 0 20px 0 0;
+}
+
+.button__edit2 {
+  background-image: url("../images/edit2.svg");
+  width: 32px;
+  height: 32px;
+  margin: 0 20px 0 0;
+}
+
+.button__edit:hover {
+  border: #ae7fb9 solid 3px;
+  border-radius: 50%;
+}
+
+.button__edit2:hover {
+  border: #ae7fb9 solid 3px;
+  border-radius: 50%;
+}
+
+.button__close {
+  background-image: url("../images/close2.svg");
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  align-self: flex-end;
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+}
+
+.button__close2 {
+  margin: 0;
+  align-self: center;
+}
+
+.button__close:hover {
+  border: #ae7fb9 solid 3px;
+  border-radius: 50%;
+}
+
+.button__save {
+  background: #ae7fb9;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.button__link {
+  width: 100%;
+  margin: 0 0 20px 0;
+  color: #ffe0d2;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button__link:hover {
+  color: #692978;
+}
+
+.button__morePoems {
+  margin: 0 auto 80px auto;
+  width: calc(100% - 398px);
+  max-width: 1240px;
+
+  height: 36px;
+  background: #ffe0d2;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button__morePoems:hover {
+  background: #692978;
+  color: white;
+}
+
+.button__morePoems_hidden {
+  visibility: hidden;
+}
+
+@media all and (max-width: 640px) {
+  .button__edit {
+    visibility: hidden;
+    position: absolute;
+  }
+}

@@ -1,0 +1,173 @@
+p {
+  margin: 0 5px;
+  /* font-family: IstokWeb;
+  font-size: 16px;
+  font-weight: bold;
+font-style: italic;
+line-height: 150%; 
+margin: 1.5em; */
+}
+
+.title {
+  font-family: "PlayfairDisplay", sans-serif;
+  color: #692978;
+  /*color: #AE7FB9;*/
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 72px 0;
+  text-align: center;
+}
+
+.title2 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin: 72px 0;
+}
+
+.title3__poem_short {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin: 18px 0;
+  width: 90%;
+}
+
+.title3__poem_full {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+  width: 80%;
+}
+
+.title4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title5__mini {
+  font-size: 14px;
+  text-align: end;
+  padding: 20px 0 20px 250px;
+  display: inline-block;
+
+  margin-right: 50px;
+  overflow-wrap: break-word;
+  white-space: pre-line;
+  justify-self: flex-end;
+}
+
+.title__seria {
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  font-family: IstokWeb;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: normal;
+  color: black;
+}
+
+.text_bold {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 10px 0 0;
+  color: black;
+}
+
+.text2__poem_short {
+  font-style: italic;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0 20px 24px 20px;
+  display: block;
+  /* display: -webkit-box;
+  height: 50px; 
+  -webkit-line-clamp: 4; */
+  line-clamp: 4;
+}
+
+.text__poem_hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.text2__poem_full {
+  font-size: 18px;
+  color: black;
+  font-style: italic;
+  margin: 0 0 0 0;
+  /* line-height: 120%; */
+}
+
+.text3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto 30px;
+}
+.text4_news {
+  margin: 0 0 20px 0;
+}
+
+.text5_seria {
+  font-style: italic;
+  font-size: 12px;
+  margin: -20px 0 20px 0;
+  padding: 0;
+  text-decoration: underline #692978 1px solid;
+}
+
+.text5_seria:hover {
+  color: #692978;
+}
+
+.text6__autor {
+  font-size: 18px;
+  margin-bottom: 12px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.text7__footer {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media all and (max-width: 1150px) {
+  .title1 {
+    font-size: 44px;
+    margin: 48px 0;
+  }
+
+  .title2 {
+    font-size: 58px;
+    margin: 48px 0;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .title1 {
+    font-size: 40px;
+    margin: 48px 0;
+  }
+
+  .title2 {
+    font-size: 52px;
+    margin: 48px 0;
+  }
+}

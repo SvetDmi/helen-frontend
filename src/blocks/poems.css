@@ -1,0 +1,25 @@
+.poems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0;
+  width: 100%;
+}
+
+@media all and (max-width: 640px) {
+  .poems {
+    justify-content: center;
+    margin: 25px;
+  }
+  .cards {
+    justify-content: center;
+  }
+}

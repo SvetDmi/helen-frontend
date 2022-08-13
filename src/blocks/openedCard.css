@@ -1,0 +1,45 @@
+.openedCard {
+  margin: 30px auto;
+  border-radius: 75px 25px 75px 25px;
+  /*background-color: #FFE0D2;*/
+  background: no-repeat url("../images/paper-light.svg");
+  /*background: linear-gradient(to bottom, #FFE0D2 20%, #ffffff 50%, #FFE0D2 80%);*/
+  object-fit: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  min-height: calc(100vh - 60px);
+}
+
+.openedCard__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.openedCard__share {
+  margin: 20px auto;
+  padding: 20px 0 40px 0;
+}
+/* .openedCard__share .ya-share2__icon:hover {
+  opacity: 1;
+} */
+
+@media all and (max-width: 640px) {
+  .openedCard {
+    width: 400px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .openedCard {
+    width: 300px;
+  }
+}

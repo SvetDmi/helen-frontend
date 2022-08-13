@@ -1,0 +1,42 @@
+@font-face {
+    font-family: IstokWeb;
+    src: local(IstokWeb-Regular),
+    url(IstokWeb-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: IstokWeb;
+    src: local(IstokWeb-Bold),
+    url(IstokWeb-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: IstokWeb;
+    src: local(IstokWeb-BoldItalic),
+    url(IstokWeb-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: local(PlayfairDisplay-Italic),
+    url(PlayfairDisplay-Italic.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: local(PlayfairDisplay-SemiBoldItalic),
+    url(PlayfairDisplay-SemiBoldItalic.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: local(PlayfairDisplay-ExtraBoldItalic),
+    url(PlayfairDisplay-ExtraBoldItalic.ttf);
+    font-weight: 800;
+}
