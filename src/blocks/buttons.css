@@ -101,7 +101,6 @@
   margin: 0 auto 80px auto;
   width: calc(100% - 398px);
   max-width: 1240px;
-
   height: 36px;
   background: #ffe0d2;
   border-radius: 6px;
@@ -124,5 +123,9 @@
   .button__edit {
     visibility: hidden;
     position: absolute;
+  }
+
+  .button__morePoems {
+    width: 80%;
   }
 }
